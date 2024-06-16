@@ -11,7 +11,6 @@ export default function Settings() {
 	return (
 		<div className="flex flex-col gap-4">
 			< Profile/>
-			
 			{/* <div>
 				<div className="flex flex-row gap-4 w-full">
 					<TransactionChart />
@@ -23,7 +22,6 @@ export default function Settings() {
 				</div>
 				< AreaChart/>
 			</div> */}
-
 		</div>
 	)
 }

@@ -1,14 +1,8 @@
 import {
 	HiOutlineViewGrid,
-	HiOutlineCube,
-	HiOutlineShoppingCart,
-	HiOutlineUsers,
-	HiOutlineDocumentText,
-	HiOutlineAnnotation,
-	HiOutlineQuestionMarkCircle,
 	HiOutlineCog,
-	HiOutlineDocument,
-	HiLibrary 
+	HiLibrary, 
+	HiShoppingBag
 	
 } from 'react-icons/hi'
 
@@ -38,7 +32,7 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 		key: 'orders',
 		label: 'Orders',
 		path: '/orders',
-		icon: <HiOutlineDocument />
+		icon: <HiShoppingBag />
 	},
 	{
 		key: 'warehouses',

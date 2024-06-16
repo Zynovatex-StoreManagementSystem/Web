@@ -7,7 +7,7 @@ import Header from './Header'
 export default function Layout() {
 	// const {name} = useContext(AdminContext)
 	return (
-		<div className="bg-white h-screen w-screen overflow-hidden flex flex-row">
+		<div className="bg-white h-screen w-screen overflow-hidden flex flex-row text-lg">
 			<Sidebar />
 			<div className="flex flex-col flex-1">
 				<Header name={""}/>

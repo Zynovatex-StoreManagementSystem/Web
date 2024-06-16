@@ -10,18 +10,12 @@ export default function Profile() {
             </div>
             <div className="bg-white  px-14 p-4 flex  items-center border-b border-gray-200 justify-between w-full">
 
-
-
                 <form class='w-full'>
-                <span class="text-lg font-bold text-black mb-15">Profile Photo</span>
+                    <span class="text-lg font-bold text-black mb-15">Profile Photo</span>
                     <div
                         class="mx-auto flex justify-center w-[141px] h-[141px] bg-blue-300/20 rounded-full bg-[url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxwcm9maWxlfGVufDB8MHx8fDE3MTEwMDM0MjN8MA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center bg-no-repeat">
-                            
-
                         <div class="bg-white/90 rounded-full w-6 h-6 text-center ml-28 mt-4">
-
                             <input type="file" name="profile" id="upload_profile" hidden required />
-
                             <label for="upload_profile">
                                 <svg data-slot="icon" class="w-6 h-5 text-blue-700" fill="none"
                                     stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"

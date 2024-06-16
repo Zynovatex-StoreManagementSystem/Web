@@ -25,11 +25,7 @@ export default function AvailableItems() {
             </div>
 
             <div className='flex overflow-x-scroll'>
-                {/* -- Carousel card slider -- */}
                 <CarouselCardSliderSwiper />
-                {/* <MultipleItems/> */}
-                {/* <ItemCards/> */}
-                {/* <SwiperCarousel/> */}
             </div>
         </div>
     );
