@@ -389,6 +389,6 @@ else if (curDate >= 12 && curDate < 16) {
     </Box>
   )
 
-}
+
 
 export default CreateAccount;
