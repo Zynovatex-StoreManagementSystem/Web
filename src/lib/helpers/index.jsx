@@ -26,7 +26,7 @@ export function getOrderStatus(status) {
 			)
 		case 'DELIVERED':
 			return (
-				<span className="capitalize py-1 px-2 rounded-md text-xs text-green-600 bg-green-100">
+				<span className="capitalize py-1 px-2 rounded-md text-xs text-primary bg-green-100">
 					{status.replaceAll('_', ' ').toLowerCase()}
 				</span>
 			)

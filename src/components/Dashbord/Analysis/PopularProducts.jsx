@@ -72,7 +72,7 @@ function PopularProducts() {
 									product.product_stock === 0
 										? 'text-red-500'
 										: product.product_stock > 50
-										? 'text-green-500'
+										? 'text-primary'
 										: 'text-orange-500',
 									'text-xs font-medium'
 								)}

@@ -2,7 +2,7 @@ import React from 'react'
 export default function Profile() {
     return (
         <div className="bg-white h-40 px-14 flex flex-col items-center border-b border-gray-200 justify-between ">
-            <div className="bg-green-449E2E  rounded-lg p-2 flex-1 border border-gray-200 flex items-center w-full">
+            <div className="bg-primary rounded-lg p-2 flex-1 border border-gray-200 flex items-center w-full">
                 <span className="text-2xl text-white ">Profile</span>
             </div>
             <div className=" bg-white h-40 px-14 p-4 flex items-center border-b border-gray-200 justify-between w-full">
@@ -10,18 +10,12 @@ export default function Profile() {
             </div>
             <div className="bg-white  px-14 p-4 flex  items-center border-b border-gray-200 justify-between w-full">
 
-
-
                 <form class='w-full'>
-                <span class="text-lg font-bold text-black mb-15">Profile Photo</span>
+                    <span class="text-lg font-bold text-black mb-15">Profile Photo</span>
                     <div
                         class="mx-auto flex justify-center w-[141px] h-[141px] bg-blue-300/20 rounded-full bg-[url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxwcm9maWxlfGVufDB8MHx8fDE3MTEwMDM0MjN8MA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center bg-no-repeat">
-                            
-
                         <div class="bg-white/90 rounded-full w-6 h-6 text-center ml-28 mt-4">
-
                             <input type="file" name="profile" id="upload_profile" hidden required />
-
                             <label for="upload_profile">
                                 <svg data-slot="icon" class="w-6 h-5 text-blue-700" fill="none"
                                     stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
@@ -76,7 +70,7 @@ export default function Profile() {
                         <input type="password" name="repeat_password" id="floating_repeat_password" class="block py-2.5 px-0 w-full text-lg font-bold text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                         <label for="floating_repeat_password" class="peer-focus:font-bold absolute text-lg font-bold text-black duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Confirm password</label>
                     </div>
-                    <button type="submit" class="text-white bg-green-449E2E hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
+                    <button type="submit" class="text-white bg-primary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
                 </form>
             </div>
         </div>

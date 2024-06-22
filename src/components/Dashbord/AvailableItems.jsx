@@ -1,13 +1,10 @@
-import React from 'react';
-import { HiOutlineBell, HiOutlineSearch, HiOutlineChatAlt } from 'react-icons/hi';
+import { HiOutlineSearch } from 'react-icons/hi';
 import CarouselCardSliderSwiper from './AvailableItems/CarouselCardSliderSwiper';
-import MultipleItems from './AvailableItems/MultipleItems';
-import ItemCards from "./AvailableItems/ItemCards";
 
 export default function AvailableItems() {
     return (
         <div className="bg-white  px-14 flex flex-col items-center border-b border-gray-200 justify-between gap-10">
-            <div className="bg-green-449E2E rounded-lg p-2 flex-1 border border-gray-200 flex items-center w-full">
+            <div className="bg-primary rounded-lg p-2 flex-1 border border-gray-200 flex items-center w-full">
                 <span className="text-2xl text-white">Available Items</span>
                 <div className="flex justify-end gap-2 ml-auto">
                     <div className="relative w-72">
@@ -25,11 +22,7 @@ export default function AvailableItems() {
             </div>
 
             <div className='flex overflow-x-scroll'>
-                {/* -- Carousel card slider -- */}
                 <CarouselCardSliderSwiper />
-                {/* <MultipleItems/> */}
-                {/* <ItemCards/> */}
-                {/* <SwiperCarousel/> */}
             </div>
         </div>
     );

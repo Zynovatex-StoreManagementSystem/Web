@@ -15,7 +15,7 @@ export default function DashboardStatsGrid() {
 					<span className="text-sm text-gray-800 font-semibold">Customers</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">542</strong>
-						<span className="text-sm text-green-500 pl-2">+43</span>
+						<span className="text-sm text-primary pl-2">+43</span>
 					</div>
 				</div>
 			</BoxWrapper>
@@ -27,7 +27,7 @@ export default function DashboardStatsGrid() {
 					<span className="text-sm text-gray-800 font-semibold">Farmers</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">343</strong>
-						<span className="text-sm text-green-500 pl-2">-33</span>
+						<span className="text-sm text-primary pl-2">-33</span>
 					</div>
 				</div>
 			</BoxWrapper>
@@ -44,7 +44,7 @@ export default function DashboardStatsGrid() {
 				</div>
 			</BoxWrapper>
 			<BoxWrapper  >
-				<div className="rounded-full h-12 w-12 flex items-center justify-center bg-green-600">
+				<div className="rounded-full h-12 w-12 flex items-center justify-center bg-primary">
 					<IoCart className="text-2xl text-white" />
 				</div>
 				<div className="pl-4">
